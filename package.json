@@ -16,11 +16,17 @@
 		"start": "wp-scripts start"
 	},
 	"prettier": "@wordpress/prettier-config",
+	"lint-staged": {
+		"*.js": "wp-scripts lint-js",
+		"*.scss": "wp-scripts lint-style",
+		"*.css": "wp-scripts lint-style"
+	},
 	"devDependencies": {
 		"@wordpress/eslint-plugin": "^12.9.0",
 		"@wordpress/prettier-config": "^1.4.0",
 		"@wordpress/scripts": "^23.7.1",
 		"eslint-config-prettier": "^8.5.0",
-		"husky": "^8.0.1"
+		"husky": "^8.0.1",
+		"lint-staged": "^13.0.3"
 	}
 }
