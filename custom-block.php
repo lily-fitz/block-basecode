@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Custom Block
+ * Plugin Name:       Custom Block Setup
  * Description:       Custom block setup.
  * Requires at least: 5.9
  * Requires PHP:      7.0
