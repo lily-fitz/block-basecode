@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       Block Basecode
- * Description:       Custom block base code.
+ * Plugin Name:       Custom Block
+ * Description:       Custom block setup.
  * Requires at least: 5.9
  * Requires PHP:      7.0
  * Version:           0.1.0
@@ -12,7 +12,7 @@
  */
 
 
-function create_block_block_basecode_block_init() {
+function create_block_custom_block_block_init() {
 	register_block_type( __DIR__ . '/build' );
 }
-add_action( 'init', 'create_block_block_basecode_block_init' );
+add_action( 'init', 'create_block_custom_block_block_init' );

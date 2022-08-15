@@ -18,7 +18,7 @@
 	"prettier": "@wordpress/prettier-config",
 	"lint-staged": {
 		"*.js": "wp-scripts lint-js",
-		"*.scss": "wp-scripts lint-style",
+		"*.scss": "npx stylelint --fix",
 		"*.css": "wp-scripts lint-style"
 	},
 	"devDependencies": {
