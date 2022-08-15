@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/block-basecode",
+  "version": "0.1.0",
+  "title": "Block Basecode",
+  "category": "widgets",
+  "icon": "pets",
+  "description": "Custom block base code.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "block-basecode",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
